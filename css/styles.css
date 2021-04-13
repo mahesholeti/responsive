@@ -1,0 +1,49 @@
+.navbar .navbar-brand img{
+  border-right: 2px solid red;
+  padding-right: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+  color: #000;
+}
+
+#banner{
+  min-height: 400px;
+  background: url(../images/bg55.jpg);
+  background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#banner h4{
+  color: #fff;
+}
+
+#banner h6{
+  color: #fff;
+}
+
+.bg-gray{
+  background-color: gray;
+}
+
+#middle{
+  min-height: 250px;
+  background: url(../images/middle.jpg);
+  background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.item{
+  flex: 1 1 0;
+  width: 0;
+}
+
+#login-form{
+  background-color: gray;
+  padding: 5px 10px;
+}
